@@ -1,0 +1,203 @@
+@media(max-width: 1200px){
+    .footer_appointment h3{
+        font-size: 22px;
+    }
+    .footer_appointment{
+        text-align: center;
+    }
+}
+
+@media(max-width: 991px){
+    .banner-content{
+        margin-top: -210px;
+    }
+    .bb_sec ul{
+        flex-direction: column;
+    }
+    .bb_sec ul li{
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        border-right: inherit;
+        border-bottom: 1px solid #a0348c;
+    }
+    .footer_area{
+        padding-top: 50px;
+    }
+    .footer_social{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 575px){
+    .bb_sec ul li{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .bb_sec ul li:last-child{
+        border-bottom: none;
+    }
+    .fertility-box{
+        flex-direction: column;
+    }
+    .fertility-box .ft-one h4 a, 
+    .fertility-box .ft-two h4 a {
+        color: #fff;
+        max-width: 250px;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        max-width: initial;
+        text-align: center;
+        justify-content: center;
+    }
+    .fertility-box .ft-one{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .fertility-box .ft-two{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .fertility-box .ft-one,
+    .fertility-box .ft-two{
+        padding: 60px 60px 50px;
+    }
+    .cont_link_box{
+        display: none;
+    }
+    .why_content_box h5{
+        font-size: 18px;
+    }
+    .banner-content h2{
+        font-size: 26px;
+    }
+    .book-btn a{
+        padding: 5px 20px;
+        font-size: 22px;
+    }
+    .theme_btn{
+        font-size: 16px;
+        padding: 10px 40px 12px;
+    }
+    .accordion-button{
+        font-size: 15px;
+    }
+    .about_area .site_title {
+        font-size: 28px;
+    }
+    .about_content_area p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .mobile-btn {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 9999;
+    }
+    .mobile-btn .btn {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 0;
+        padding: 12px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+    .footer_area{
+        padding-bottom: 48px;
+    }
+    .mob-bottom-icon{
+        position: relative;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.39);
+        text-align: center;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        margin-right: 10px;
+    }
+    .mob-bottom-icon::after {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        border: ;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+        -webkit-animation: grow 2s ease infinite;
+        animation: grow 2s ease infinite;
+    }
+    
+    .mob-bottom-icon > i {
+        line-height: 25px;
+        color: #fff;
+        font-size: 13px;
+    }
+    
+    @-webkit-keyframes grow {
+        0% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+            opacity: 0;
+        }
+    
+        25% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+            opacity: 0.5;
+        }
+    
+        50% {
+            -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+            opacity: 1;
+        }
+    
+        100% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes grow {
+        0% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+            opacity: 0;
+        }
+    
+        25% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+            opacity: 0.5;
+        }
+    
+        50% {
+            -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+            opacity: 1;
+        }
+    
+        100% {
+            -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+            opacity: 0;
+        }
+    }
+}
